@@ -152,7 +152,7 @@ $timer.Add_Tick({
         foreach ($oy in @(-2, 0, 2)) {
             if ($ox -ne 0 -or $oy -ne 0) {
                 $g.DrawString($title,  $mainFont, $ob, ($gx + $ox), ($gy + $oy))
-                $g.DrawString($author, $subFont,  $ob, ($gax + $	ox), ($gay + $oy))
+                $g.DrawString($author, $subFont,  $ob, ($gax + $ox), ($gay + $oy))
             }
         }
     }
